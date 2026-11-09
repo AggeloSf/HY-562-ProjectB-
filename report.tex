@@ -1,0 +1,43 @@
+% HY562 / CS-562 Fall 2026, course project report (6 pages, LNCS format, references not counted).
+% Use the Springer LNCS template: on Overleaf, "Springer LNCS template", or llncs.cls from
+% https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+\documentclass[runningheads]{llncs}
+\usepackage{graphicx,booktabs,amsmath,url}
+
+\begin{document}
+\title{Project A1: ShapeStream with Sketches}   % your project, team and variant
+\author{Name One \and Name Two \and Name Three \and Name Four \and Name Five}
+\institute{Computer Science Department, University of Crete}
+\maketitle
+
+\begin{abstract}
+Four to six sentences: the problem, what you built, the main number, what it means.
+\end{abstract}
+
+\section{Introduction}
+The problem in one paragraph; your variant and why it is interesting; your contributions as a short list.
+
+\section{Problem and background}
+Definitions you use (from the project description); the lecture material you build on; related work from the reading list.
+
+\section{The common baseline}
+Project A: design of the exact incremental engine (state, update rules for the three hard cases, Spark operators).
+Project B: the pipeline and the two baselines as you ran them; anything you had to fix.
+
+\section{Your variant}
+Design, parameters, complexity or error guarantees where they exist. One worked example
+(Project A: one epoch on a few entities; Project B: one question from summary to query to answer).
+
+\section{Experiments}
+Set-up (machine, Spark settings, data, models). The minimum grid of the project description.
+Every number in this section must be a row of the shared results table.
+
+\section{Discussion}
+What worked, what did not and why; threats to validity; what you would do next.
+
+\section*{Use of AI assistants}
+Which tools, for what. (Course policy, Lecture 1.)
+
+\bibliographystyle{splncs04}
+\bibliography{refs}
+\end{document}
