@@ -1,0 +1,32 @@
+# QLever configuration for DBpedia 2016-10 (Project B). For the course server (TAs).
+#   pip install qlever            # qlever-control, Python >= 3.10
+#   mkdir dbpedia2016 && cd dbpedia2016 && cp ../Qleverfile.dbpedia2016 Qleverfile
+#   qlever get-data && qlever index && qlever start      # then: qlever ui (optional)
+# The keys follow the presets of qlever-control 0.6; if a key is rejected, compare with
+# the output of `qlever setup-config olympics` and adjust.
+# Check the triple count printed by `qlever index`; plan for 8 to 16 GB RAM while indexing.
+
+[data]
+NAME              = dbpedia2016
+BASE_URL          = https://downloads.dbpedia.org/2016-10
+GET_DATA_CMD      = for f in instance_types_en instance_types_transitive_en mappingbased_objects_en mappingbased_literals_en labels_en infobox_properties_en; do curl -fL -O ${BASE_URL}/core-i18n/en/$f.ttl.bz2; done && curl -fL -O ${BASE_URL}/dbpedia_2016-10.nt
+DESCRIPTION       = DBpedia 2016-10 (English core files + ontology), HY562 Project B
+
+[index]
+INPUT_FILES       = *.ttl.bz2 dbpedia_2016-10.nt
+CAT_INPUT_FILES   = (bzcat *.ttl.bz2; cat dbpedia_2016-10.nt)
+SETTINGS_JSON     = { "ascii-prefixes-only": false, "num-triples-per-batch": 2000000 }
+
+[server]
+PORT               = 7016
+ACCESS_TOKEN       = ${data:NAME}_hy562
+MEMORY_FOR_QUERIES = 6G
+CACHE_MAX_SIZE     = 2G
+TIMEOUT            = 60s
+
+[runtime]
+SYSTEM = docker
+IMAGE  = docker.io/adfreiburg/qlever:latest
+
+[ui]
+UI_CONFIG = default

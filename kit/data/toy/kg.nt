@@ -1,0 +1,746 @@
+<http://example.org/resource/Ada_Lovelace> <http://example.org/ontology/birthDate> "1933-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Ada_Lovelace> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Ada_Lovelace> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Ada_Lovelace> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Ada_Lovelace> <http://example.org/ontology/name> "Ada Lovelace"@en .
+<http://example.org/resource/Ada_Lovelace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Alan_Turing> <http://example.org/ontology/birthDate> "1922-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Alan_Turing> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Alan_Turing> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Alan_Turing> <http://example.org/ontology/name> "Alan Turing"@en .
+<http://example.org/resource/Alan_Turing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Athens> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/Athens> <http://example.org/ontology/name> "Athens" .
+<http://example.org/resource/Athens> <http://example.org/ontology/population> "1666009"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/Athens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_0> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_0> <http://example.org/ontology/name> "City_0" .
+<http://example.org/resource/City_0> <http://example.org/ontology/population> "404810"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_10> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_10> <http://example.org/ontology/name> "City_10" .
+<http://example.org/resource/City_10> <http://example.org/ontology/population> "2655036"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_11> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_11> <http://example.org/ontology/name> "City_11" .
+<http://example.org/resource/City_11> <http://example.org/ontology/population> "2455266"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_12> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_12> <http://example.org/ontology/name> "City_12" .
+<http://example.org/resource/City_12> <http://example.org/ontology/population> "2430545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_13> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_13> <http://example.org/ontology/name> "City_13" .
+<http://example.org/resource/City_13> <http://example.org/ontology/population> "1673798"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_14> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_14> <http://example.org/ontology/name> "City_14" .
+<http://example.org/resource/City_14> <http://example.org/ontology/population> "937284"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_15> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_15> <http://example.org/ontology/name> "City_15" .
+<http://example.org/resource/City_15> <http://example.org/ontology/population> "2344821"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_16> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_16> <http://example.org/ontology/name> "City_16" .
+<http://example.org/resource/City_16> <http://example.org/ontology/population> "1224709"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_17> <http://example.org/ontology/country> <http://example.org/resource/France> .
+<http://example.org/resource/City_17> <http://example.org/ontology/name> "City_17" .
+<http://example.org/resource/City_17> <http://example.org/ontology/population> "615049"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_18> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_18> <http://example.org/ontology/name> "City_18" .
+<http://example.org/resource/City_18> <http://example.org/ontology/population> "504056"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_19> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_19> <http://example.org/ontology/name> "City_19" .
+<http://example.org/resource/City_19> <http://example.org/ontology/population> "1303866"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_1> <http://example.org/ontology/country> <http://example.org/resource/France> .
+<http://example.org/resource/City_1> <http://example.org/ontology/name> "City_1" .
+<http://example.org/resource/City_1> <http://example.org/ontology/population> "2454390"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_2> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_2> <http://example.org/ontology/name> "City_2" .
+<http://example.org/resource/City_2> <http://example.org/ontology/population> "3825575"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_3> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_3> <http://example.org/ontology/name> "City_3" .
+<http://example.org/resource/City_3> <http://example.org/ontology/population> "910509"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_4> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_4> <http://example.org/ontology/name> "City_4" .
+<http://example.org/resource/City_4> <http://example.org/ontology/population> "370488"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_5> <http://example.org/ontology/country> <http://example.org/resource/France> .
+<http://example.org/resource/City_5> <http://example.org/ontology/name> "City_5" .
+<http://example.org/resource/City_5> <http://example.org/ontology/population> "1763941"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_6> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_6> <http://example.org/ontology/name> "City_6" .
+<http://example.org/resource/City_6> <http://example.org/ontology/population> "1019413"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_7> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/City_7> <http://example.org/ontology/name> "City_7" .
+<http://example.org/resource/City_7> <http://example.org/ontology/population> "2321259"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_8> <http://example.org/ontology/country> <http://example.org/resource/France> .
+<http://example.org/resource/City_8> <http://example.org/ontology/name> "City_8" .
+<http://example.org/resource/City_8> <http://example.org/ontology/population> "257927"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/City_9> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/City_9> <http://example.org/ontology/name> "City_9" .
+<http://example.org/resource/City_9> <http://example.org/ontology/population> "529263"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/City_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/FORTH> <http://example.org/ontology/location> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/FORTH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Company> .
+<http://example.org/resource/Film_0> <http://example.org/ontology/director> <http://example.org/resource/Person_1> .
+<http://example.org/resource/Film_0> <http://example.org/ontology/runtime> "103.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_0> <http://example.org/ontology/starring> <http://example.org/resource/Person_24> .
+<http://example.org/resource/Film_0> <http://example.org/ontology/starring> <http://example.org/resource/Person_42> .
+<http://example.org/resource/Film_0> <http://example.org/ontology/title> "Film 0"@en .
+<http://example.org/resource/Film_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_10> <http://example.org/ontology/director> <http://example.org/resource/Person_61> .
+<http://example.org/resource/Film_10> <http://example.org/ontology/runtime> "109.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_10> <http://example.org/ontology/starring> <http://example.org/resource/Grace_Hopper> .
+<http://example.org/resource/Film_10> <http://example.org/ontology/starring> <http://example.org/resource/Person_71> .
+<http://example.org/resource/Film_10> <http://example.org/ontology/starring> <http://example.org/resource/Person_79> .
+<http://example.org/resource/Film_10> <http://example.org/ontology/title> "Film 10"@en .
+<http://example.org/resource/Film_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_11> <http://example.org/ontology/director> <http://example.org/resource/Person_7> .
+<http://example.org/resource/Film_11> <http://example.org/ontology/runtime> "97.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_11> <http://example.org/ontology/starring> <http://example.org/resource/Person_2> .
+<http://example.org/resource/Film_11> <http://example.org/ontology/title> "Film 11"@en .
+<http://example.org/resource/Film_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_12> <http://example.org/ontology/director> <http://example.org/resource/Person_78> .
+<http://example.org/resource/Film_12> <http://example.org/ontology/runtime> "137.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_12> <http://example.org/ontology/starring> <http://example.org/resource/Person_10> .
+<http://example.org/resource/Film_12> <http://example.org/ontology/starring> <http://example.org/resource/Person_45> .
+<http://example.org/resource/Film_12> <http://example.org/ontology/title> "Film 12"@en .
+<http://example.org/resource/Film_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_13> <http://example.org/ontology/director> <http://example.org/resource/Person_68> .
+<http://example.org/resource/Film_13> <http://example.org/ontology/runtime> "82.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_13> <http://example.org/ontology/starring> <http://example.org/resource/Person_77> .
+<http://example.org/resource/Film_13> <http://example.org/ontology/title> "Film 13"@en .
+<http://example.org/resource/Film_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_14> <http://example.org/ontology/director> <http://example.org/resource/Person_77> .
+<http://example.org/resource/Film_14> <http://example.org/ontology/runtime> "80.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_14> <http://example.org/ontology/starring> <http://example.org/resource/Person_28> .
+<http://example.org/resource/Film_14> <http://example.org/ontology/starring> <http://example.org/resource/Person_30> .
+<http://example.org/resource/Film_14> <http://example.org/ontology/starring> <http://example.org/resource/Person_59> .
+<http://example.org/resource/Film_14> <http://example.org/ontology/title> "Film 14"@en .
+<http://example.org/resource/Film_14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_15> <http://example.org/ontology/director> <http://example.org/resource/Person_55> .
+<http://example.org/resource/Film_15> <http://example.org/ontology/runtime> "148.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_15> <http://example.org/ontology/starring> <http://example.org/resource/Person_61> .
+<http://example.org/resource/Film_15> <http://example.org/ontology/title> "Film 15"@en .
+<http://example.org/resource/Film_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_16> <http://example.org/ontology/director> <http://example.org/resource/Person_8> .
+<http://example.org/resource/Film_16> <http://example.org/ontology/runtime> "112.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_16> <http://example.org/ontology/starring> <http://example.org/resource/Person_57> .
+<http://example.org/resource/Film_16> <http://example.org/ontology/starring> <http://example.org/resource/Person_5> .
+<http://example.org/resource/Film_16> <http://example.org/ontology/starring> <http://example.org/resource/Person_64> .
+<http://example.org/resource/Film_16> <http://example.org/ontology/title> "Film 16"@en .
+<http://example.org/resource/Film_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_17> <http://example.org/ontology/director> <http://example.org/resource/Person_6> .
+<http://example.org/resource/Film_17> <http://example.org/ontology/runtime> "109.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_17> <http://example.org/ontology/starring> <http://example.org/resource/Person_23> .
+<http://example.org/resource/Film_17> <http://example.org/ontology/starring> <http://example.org/resource/Person_27> .
+<http://example.org/resource/Film_17> <http://example.org/ontology/title> "Film 17"@en .
+<http://example.org/resource/Film_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_18> <http://example.org/ontology/director> <http://example.org/resource/Person_55> .
+<http://example.org/resource/Film_18> <http://example.org/ontology/runtime> "141.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_18> <http://example.org/ontology/starring> <http://example.org/resource/Person_45> .
+<http://example.org/resource/Film_18> <http://example.org/ontology/starring> <http://example.org/resource/Person_6> .
+<http://example.org/resource/Film_18> <http://example.org/ontology/title> "Film 18"@en .
+<http://example.org/resource/Film_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_19> <http://example.org/ontology/director> <http://example.org/resource/Person_33> .
+<http://example.org/resource/Film_19> <http://example.org/ontology/runtime> "160.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_19> <http://example.org/ontology/starring> <http://example.org/resource/Person_75> .
+<http://example.org/resource/Film_19> <http://example.org/ontology/title> "Film 19"@en .
+<http://example.org/resource/Film_19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_1> <http://example.org/ontology/director> <http://example.org/resource/Ada_Lovelace> .
+<http://example.org/resource/Film_1> <http://example.org/ontology/runtime> "140.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_1> <http://example.org/ontology/starring> <http://example.org/resource/Person_45> .
+<http://example.org/resource/Film_1> <http://example.org/ontology/starring> <http://example.org/resource/Person_7> .
+<http://example.org/resource/Film_1> <http://example.org/ontology/title> "Film 1"@en .
+<http://example.org/resource/Film_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_20> <http://example.org/ontology/director> <http://example.org/resource/Person_79> .
+<http://example.org/resource/Film_20> <http://example.org/ontology/runtime> "156.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_20> <http://example.org/ontology/starring> <http://example.org/resource/Person_6> .
+<http://example.org/resource/Film_20> <http://example.org/ontology/title> "Film 20"@en .
+<http://example.org/resource/Film_20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_21> <http://example.org/ontology/director> <http://example.org/resource/Person_15> .
+<http://example.org/resource/Film_21> <http://example.org/ontology/runtime> "159.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_21> <http://example.org/ontology/starring> <http://example.org/resource/Person_29> .
+<http://example.org/resource/Film_21> <http://example.org/ontology/starring> <http://example.org/resource/Person_35> .
+<http://example.org/resource/Film_21> <http://example.org/ontology/title> "Film 21"@en .
+<http://example.org/resource/Film_21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_22> <http://example.org/ontology/director> <http://example.org/resource/Person_69> .
+<http://example.org/resource/Film_22> <http://example.org/ontology/runtime> "141.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_22> <http://example.org/ontology/starring> <http://example.org/resource/Alan_Turing> .
+<http://example.org/resource/Film_22> <http://example.org/ontology/title> "Film 22"@en .
+<http://example.org/resource/Film_22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_23> <http://example.org/ontology/director> <http://example.org/resource/Person_4> .
+<http://example.org/resource/Film_23> <http://example.org/ontology/runtime> "168.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_23> <http://example.org/ontology/starring> <http://example.org/resource/Person_31> .
+<http://example.org/resource/Film_23> <http://example.org/ontology/starring> <http://example.org/resource/Person_9> .
+<http://example.org/resource/Film_23> <http://example.org/ontology/title> "Film 23"@en .
+<http://example.org/resource/Film_23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_24> <http://example.org/ontology/director> <http://example.org/resource/Person_24> .
+<http://example.org/resource/Film_24> <http://example.org/ontology/runtime> "116.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_24> <http://example.org/ontology/starring> <http://example.org/resource/Person_34> .
+<http://example.org/resource/Film_24> <http://example.org/ontology/starring> <http://example.org/resource/Person_59> .
+<http://example.org/resource/Film_24> <http://example.org/ontology/starring> <http://example.org/resource/Person_63> .
+<http://example.org/resource/Film_24> <http://example.org/ontology/title> "Film 24"@en .
+<http://example.org/resource/Film_24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_25> <http://example.org/ontology/director> <http://example.org/resource/Person_56> .
+<http://example.org/resource/Film_25> <http://example.org/ontology/runtime> "150.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_25> <http://example.org/ontology/starring> <http://example.org/resource/Person_12> .
+<http://example.org/resource/Film_25> <http://example.org/ontology/starring> <http://example.org/resource/Person_56> .
+<http://example.org/resource/Film_25> <http://example.org/ontology/title> "Film 25"@en .
+<http://example.org/resource/Film_25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_26> <http://example.org/ontology/director> <http://example.org/resource/Person_22> .
+<http://example.org/resource/Film_26> <http://example.org/ontology/runtime> "82.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_26> <http://example.org/ontology/starring> <http://example.org/resource/Person_57> .
+<http://example.org/resource/Film_26> <http://example.org/ontology/starring> <http://example.org/resource/Person_7> .
+<http://example.org/resource/Film_26> <http://example.org/ontology/title> "Film 26"@en .
+<http://example.org/resource/Film_26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_27> <http://example.org/ontology/director> <http://example.org/resource/Person_34> .
+<http://example.org/resource/Film_27> <http://example.org/ontology/runtime> "137.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_27> <http://example.org/ontology/starring> <http://example.org/resource/Person_61> .
+<http://example.org/resource/Film_27> <http://example.org/ontology/starring> <http://example.org/resource/Person_6> .
+<http://example.org/resource/Film_27> <http://example.org/ontology/title> "Film 27"@en .
+<http://example.org/resource/Film_27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_28> <http://example.org/ontology/director> <http://example.org/resource/Person_31> .
+<http://example.org/resource/Film_28> <http://example.org/ontology/runtime> "89.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_28> <http://example.org/ontology/starring> <http://example.org/resource/Person_23> .
+<http://example.org/resource/Film_28> <http://example.org/ontology/title> "Film 28"@en .
+<http://example.org/resource/Film_28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_29> <http://example.org/ontology/director> <http://example.org/resource/Person_71> .
+<http://example.org/resource/Film_29> <http://example.org/ontology/runtime> "175.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_29> <http://example.org/ontology/starring> <http://example.org/resource/Person_15> .
+<http://example.org/resource/Film_29> <http://example.org/ontology/title> "Film 29"@en .
+<http://example.org/resource/Film_29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_2> <http://example.org/ontology/director> <http://example.org/resource/Person_32> .
+<http://example.org/resource/Film_2> <http://example.org/ontology/runtime> "179.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_2> <http://example.org/ontology/starring> <http://example.org/resource/Person_22> .
+<http://example.org/resource/Film_2> <http://example.org/ontology/starring> <http://example.org/resource/Person_28> .
+<http://example.org/resource/Film_2> <http://example.org/ontology/starring> <http://example.org/resource/Person_61> .
+<http://example.org/resource/Film_2> <http://example.org/ontology/title> "Film 2"@en .
+<http://example.org/resource/Film_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_3> <http://example.org/ontology/director> <http://example.org/resource/Ada_Lovelace> .
+<http://example.org/resource/Film_3> <http://example.org/ontology/runtime> "91.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_3> <http://example.org/ontology/starring> <http://example.org/resource/Alan_Turing> .
+<http://example.org/resource/Film_3> <http://example.org/ontology/starring> <http://example.org/resource/Person_30> .
+<http://example.org/resource/Film_3> <http://example.org/ontology/title> "Film 3"@en .
+<http://example.org/resource/Film_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_4> <http://example.org/ontology/director> <http://example.org/resource/Alan_Turing> .
+<http://example.org/resource/Film_4> <http://example.org/ontology/director> <http://example.org/resource/Person_15> .
+<http://example.org/resource/Film_4> <http://example.org/ontology/runtime> "130.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_4> <http://example.org/ontology/starring> <http://example.org/resource/Person_2> .
+<http://example.org/resource/Film_4> <http://example.org/ontology/starring> <http://example.org/resource/Person_72> .
+<http://example.org/resource/Film_4> <http://example.org/ontology/title> "Film 4"@en .
+<http://example.org/resource/Film_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_5> <http://example.org/ontology/director> <http://example.org/resource/Grace_Hopper> .
+<http://example.org/resource/Film_5> <http://example.org/ontology/runtime> "109.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_5> <http://example.org/ontology/starring> <http://example.org/resource/Person_35> .
+<http://example.org/resource/Film_5> <http://example.org/ontology/starring> <http://example.org/resource/Person_77> .
+<http://example.org/resource/Film_5> <http://example.org/ontology/title> "Film 5"@en .
+<http://example.org/resource/Film_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_6> <http://example.org/ontology/director> <http://example.org/resource/Person_7> .
+<http://example.org/resource/Film_6> <http://example.org/ontology/runtime> "129.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_6> <http://example.org/ontology/starring> <http://example.org/resource/Person_16> .
+<http://example.org/resource/Film_6> <http://example.org/ontology/starring> <http://example.org/resource/Person_64> .
+<http://example.org/resource/Film_6> <http://example.org/ontology/starring> <http://example.org/resource/Person_73> .
+<http://example.org/resource/Film_6> <http://example.org/ontology/title> "Film 6"@en .
+<http://example.org/resource/Film_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_7> <http://example.org/ontology/director> <http://example.org/resource/Person_38> .
+<http://example.org/resource/Film_7> <http://example.org/ontology/runtime> "172.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_7> <http://example.org/ontology/starring> <http://example.org/resource/Person_16> .
+<http://example.org/resource/Film_7> <http://example.org/ontology/starring> <http://example.org/resource/Person_33> .
+<http://example.org/resource/Film_7> <http://example.org/ontology/starring> <http://example.org/resource/Person_60> .
+<http://example.org/resource/Film_7> <http://example.org/ontology/title> "Film 7"@en .
+<http://example.org/resource/Film_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_8> <http://example.org/ontology/director> <http://example.org/resource/Person_76> .
+<http://example.org/resource/Film_8> <http://example.org/ontology/runtime> "160.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_8> <http://example.org/ontology/starring> <http://example.org/resource/Person_15> .
+<http://example.org/resource/Film_8> <http://example.org/ontology/starring> <http://example.org/resource/Person_2> .
+<http://example.org/resource/Film_8> <http://example.org/ontology/starring> <http://example.org/resource/Person_62> .
+<http://example.org/resource/Film_8> <http://example.org/ontology/title> "Film 8"@en .
+<http://example.org/resource/Film_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/Film_9> <http://example.org/ontology/director> <http://example.org/resource/Person_51> .
+<http://example.org/resource/Film_9> <http://example.org/ontology/runtime> "176.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/Film_9> <http://example.org/ontology/starring> <http://example.org/resource/Person_14> .
+<http://example.org/resource/Film_9> <http://example.org/ontology/starring> <http://example.org/resource/Person_61> .
+<http://example.org/resource/Film_9> <http://example.org/ontology/starring> <http://example.org/resource/Person_64> .
+<http://example.org/resource/Film_9> <http://example.org/ontology/title> "Film 9"@en .
+<http://example.org/resource/Film_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/France> <http://example.org/ontology/name> "France" .
+<http://example.org/resource/France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Country> .
+<http://example.org/resource/Grace_Hopper> <http://example.org/ontology/birthDate> "1997-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Grace_Hopper> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Grace_Hopper> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Grace_Hopper> <http://example.org/ontology/name> "Grace Hopper"@en .
+<http://example.org/resource/Grace_Hopper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Greece> <http://example.org/ontology/name> "Greece" .
+<http://example.org/resource/Greece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Country> .
+<http://example.org/resource/Heraklion> <http://example.org/ontology/country> <http://example.org/resource/Greece> .
+<http://example.org/resource/Heraklion> <http://example.org/ontology/name> "Heraklion" .
+<http://example.org/resource/Heraklion> <http://example.org/ontology/population> "3985635"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/Heraklion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/London> <http://example.org/ontology/country> <http://example.org/resource/United_Kingdom> .
+<http://example.org/resource/London> <http://example.org/ontology/name> "London" .
+<http://example.org/resource/London> <http://example.org/ontology/population> "3454674"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/Lyon> <http://example.org/ontology/country> <http://example.org/resource/France> .
+<http://example.org/resource/Lyon> <http://example.org/ontology/name> "Lyon" .
+<http://example.org/resource/Lyon> <http://example.org/ontology/population> "212527"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/resource/Lyon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/City> .
+<http://example.org/resource/Org_A> <http://example.org/ontology/location> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Org_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Company> .
+<http://example.org/resource/Org_B> <http://example.org/ontology/location> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Org_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/University> .
+<http://example.org/resource/Person_0> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_0> <http://example.org/ontology/birthDate> "1956-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_0> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_0> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_0> <http://example.org/ontology/name> "Person 0"@en .
+<http://example.org/resource/Person_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_10> <http://example.org/ontology/birthDate> "1946-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_10> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_10> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_10> <http://example.org/ontology/name> "Person 10"@en .
+<http://example.org/resource/Person_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_11> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_11> <http://example.org/ontology/birthDate> "1920-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_11> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_11> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_11> <http://example.org/ontology/name> "Person 11"@en .
+<http://example.org/resource/Person_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_12> <http://example.org/ontology/birthDate> "1980-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_12> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_12> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_12> <http://example.org/ontology/name> "Person 12"@en .
+<http://example.org/resource/Person_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_13> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_13> <http://example.org/ontology/birthDate> "1958-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_13> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_13> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_13> <http://example.org/ontology/name> "Person 13"@en .
+<http://example.org/resource/Person_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_14> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_14> <http://example.org/ontology/birthDate> "1939-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_14> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_14> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_14> <http://example.org/ontology/name> "Person 14"@en .
+<http://example.org/resource/Person_14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_15> <http://example.org/ontology/birthDate> "1928-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_15> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_15> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_15> <http://example.org/ontology/name> "Person 15"@en .
+<http://example.org/resource/Person_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_16> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_16> <http://example.org/ontology/birthDate> "1926-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_16> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_16> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_16> <http://example.org/ontology/name> "Person 16"@en .
+<http://example.org/resource/Person_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_17> <http://example.org/ontology/birthDate> "1923-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_17> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_17> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_17> <http://example.org/ontology/name> "Person 17"@en .
+<http://example.org/resource/Person_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_18> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_18> <http://example.org/ontology/birthDate> "1936-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_18> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_18> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_18> <http://example.org/ontology/name> "Person 18"@en .
+<http://example.org/resource/Person_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_19> <http://example.org/ontology/birthDate> "1910-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_19> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_19> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_19> <http://example.org/ontology/name> "Person 19"@en .
+<http://example.org/resource/Person_19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_1> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_1> <http://example.org/ontology/birthDate> "1920-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_1> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_1> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_1> <http://example.org/ontology/name> "Person 1"@en .
+<http://example.org/resource/Person_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_20> <http://example.org/ontology/birthDate> "1913-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_20> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_20> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_20> <http://example.org/ontology/name> "Person 20"@en .
+<http://example.org/resource/Person_20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_21> <http://example.org/ontology/birthDate> "1991-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_21> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_21> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_21> <http://example.org/ontology/name> "Person 21"@en .
+<http://example.org/resource/Person_21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_22> <http://example.org/ontology/birthDate> "1925-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_22> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_22> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_22> <http://example.org/ontology/name> "Person 22"@en .
+<http://example.org/resource/Person_22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_23> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_23> <http://example.org/ontology/birthDate> "1971-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_23> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_23> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_23> <http://example.org/ontology/name> "Person 23"@en .
+<http://example.org/resource/Person_23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_24> <http://example.org/ontology/birthDate> "1943-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_24> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_24> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_24> <http://example.org/ontology/name> "Person 24"@en .
+<http://example.org/resource/Person_24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_25> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_25> <http://example.org/ontology/birthDate> "1936-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_25> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_25> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_25> <http://example.org/ontology/name> "Person 25"@en .
+<http://example.org/resource/Person_25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_26> <http://example.org/ontology/birthDate> "1992-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_26> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_26> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_26> <http://example.org/ontology/name> "Person 26"@en .
+<http://example.org/resource/Person_26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_27> <http://example.org/ontology/birthDate> "1931-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_27> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_27> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_27> <http://example.org/ontology/name> "Person 27"@en .
+<http://example.org/resource/Person_27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_28> <http://example.org/ontology/birthDate> "1952-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_28> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_28> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_28> <http://example.org/ontology/name> "Person 28"@en .
+<http://example.org/resource/Person_28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_29> <http://example.org/ontology/birthDate> "1940-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_29> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_29> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_29> <http://example.org/ontology/name> "Person 29"@en .
+<http://example.org/resource/Person_29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_2> <http://example.org/ontology/birthDate> "1967-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_2> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_2> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_2> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_2> <http://example.org/ontology/name> "Person 2"@en .
+<http://example.org/resource/Person_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_30> <http://example.org/ontology/birthDate> "1973-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_30> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_30> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_30> <http://example.org/ontology/name> "Person 30"@en .
+<http://example.org/resource/Person_30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_31> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_31> <http://example.org/ontology/birthDate> "1970-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_31> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_31> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_31> <http://example.org/ontology/name> "Person 31"@en .
+<http://example.org/resource/Person_31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_32> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_32> <http://example.org/ontology/birthDate> "1954-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_32> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_32> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_32> <http://example.org/ontology/name> "Person 32"@en .
+<http://example.org/resource/Person_32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_33> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_33> <http://example.org/ontology/birthDate> "1953-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_33> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_33> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_33> <http://example.org/ontology/name> "Person 33"@en .
+<http://example.org/resource/Person_33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_34> <http://example.org/ontology/birthDate> "1954-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_34> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_34> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_34> <http://example.org/ontology/name> "Person 34"@en .
+<http://example.org/resource/Person_34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_35> <http://example.org/ontology/birthDate> "1935-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_35> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_35> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_35> <http://example.org/ontology/name> "Person 35"@en .
+<http://example.org/resource/Person_35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_36> <http://example.org/ontology/birthDate> "1952-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_36> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_36> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_36> <http://example.org/ontology/name> "Person 36"@en .
+<http://example.org/resource/Person_36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_37> <http://example.org/ontology/birthDate> "1969-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_37> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_37> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_37> <http://example.org/ontology/name> "Person 37"@en .
+<http://example.org/resource/Person_37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_38> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_38> <http://example.org/ontology/birthDate> "1931-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_38> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_38> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_38> <http://example.org/ontology/name> "Person 38"@en .
+<http://example.org/resource/Person_38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_39> <http://example.org/ontology/birthDate> "1988-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_39> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_39> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_39> <http://example.org/ontology/name> "Person 39"@en .
+<http://example.org/resource/Person_39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_3> <http://example.org/ontology/birthDate> "1963-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_3> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_3> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_3> <http://example.org/ontology/name> "Person 3"@en .
+<http://example.org/resource/Person_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_40> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_40> <http://example.org/ontology/birthDate> "1980-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_40> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_40> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_40> <http://example.org/ontology/name> "Person 40"@en .
+<http://example.org/resource/Person_40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_41> <http://example.org/ontology/birthDate> "1965-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_41> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_41> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_41> <http://example.org/ontology/name> "Person 41"@en .
+<http://example.org/resource/Person_41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_42> <http://example.org/ontology/birthDate> "1937-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_42> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_42> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_42> <http://example.org/ontology/name> "Person 42"@en .
+<http://example.org/resource/Person_42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_43> <http://example.org/ontology/birthDate> "1943-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_43> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_43> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_43> <http://example.org/ontology/name> "Person 43"@en .
+<http://example.org/resource/Person_43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_44> <http://example.org/ontology/birthDate> "1955-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_44> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_44> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_44> <http://example.org/ontology/name> "Person 44"@en .
+<http://example.org/resource/Person_44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_45> <http://example.org/ontology/birthDate> "1963-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_45> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_45> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_45> <http://example.org/ontology/name> "Person 45"@en .
+<http://example.org/resource/Person_45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_46> <http://example.org/ontology/birthDate> "1966-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_46> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_46> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_46> <http://example.org/ontology/name> "Person 46"@en .
+<http://example.org/resource/Person_46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_47> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_47> <http://example.org/ontology/birthDate> "1932-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_47> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_47> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_47> <http://example.org/ontology/name> "Person 47"@en .
+<http://example.org/resource/Person_47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_48> <http://example.org/ontology/birthDate> "1997-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_48> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_48> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_48> <http://example.org/ontology/name> "Person 48"@en .
+<http://example.org/resource/Person_48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_49> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_49> <http://example.org/ontology/birthDate> "1917-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_49> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_49> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_49> <http://example.org/ontology/name> "Person 49"@en .
+<http://example.org/resource/Person_49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_4> <http://example.org/ontology/birthDate> "1963-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_4> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_4> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_4> <http://example.org/ontology/name> "Person 4"@en .
+<http://example.org/resource/Person_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_50> <http://example.org/ontology/birthDate> "1967-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_50> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_50> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_50> <http://example.org/ontology/name> "Person 50"@en .
+<http://example.org/resource/Person_50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_51> <http://example.org/ontology/birthDate> "1951-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_51> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_51> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_51> <http://example.org/ontology/name> "Person 51"@en .
+<http://example.org/resource/Person_51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_52> <http://example.org/ontology/birthDate> "1971-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_52> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_52> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_52> <http://example.org/ontology/name> "Person 52"@en .
+<http://example.org/resource/Person_52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_53> <http://example.org/ontology/birthDate> "1981-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_53> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_53> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_53> <http://example.org/ontology/name> "Person 53"@en .
+<http://example.org/resource/Person_53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_54> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_54> <http://example.org/ontology/birthDate> "1960-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_54> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_54> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_54> <http://example.org/ontology/name> "Person 54"@en .
+<http://example.org/resource/Person_54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_55> <http://example.org/ontology/birthDate> "1995-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_55> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_55> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_55> <http://example.org/ontology/name> "Person 55"@en .
+<http://example.org/resource/Person_55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_56> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_56> <http://example.org/ontology/birthDate> "1992-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_56> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_56> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_56> <http://example.org/ontology/name> "Person 56"@en .
+<http://example.org/resource/Person_56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_57> <http://example.org/ontology/birthDate> "1922-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_57> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_57> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_57> <http://example.org/ontology/name> "Person 57"@en .
+<http://example.org/resource/Person_57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_58> <http://example.org/ontology/birthDate> "1938-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_58> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_58> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_58> <http://example.org/ontology/name> "Person 58"@en .
+<http://example.org/resource/Person_58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_59> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_59> <http://example.org/ontology/birthDate> "1953-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_59> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_59> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_59> <http://example.org/ontology/name> "Person 59"@en .
+<http://example.org/resource/Person_59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_5> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_5> <http://example.org/ontology/birthDate> "1983-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_5> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_5> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_5> <http://example.org/ontology/name> "Person 5"@en .
+<http://example.org/resource/Person_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_60> <http://example.org/ontology/birthDate> "1912-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_60> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_60> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_60> <http://example.org/ontology/name> "Person 60"@en .
+<http://example.org/resource/Person_60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_61> <http://example.org/ontology/birthDate> "1959-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_61> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_61> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_61> <http://example.org/ontology/name> "Person 61"@en .
+<http://example.org/resource/Person_61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_62> <http://example.org/ontology/birthDate> "1924-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_62> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_62> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_62> <http://example.org/ontology/name> "Person 62"@en .
+<http://example.org/resource/Person_62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_63> <http://example.org/ontology/birthDate> "1944-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_63> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_63> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_63> <http://example.org/ontology/name> "Person 63"@en .
+<http://example.org/resource/Person_63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_64> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_64> <http://example.org/ontology/birthDate> "1964-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_64> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_64> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_64> <http://example.org/ontology/name> "Person 64"@en .
+<http://example.org/resource/Person_64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_65> <http://example.org/ontology/birthDate> "1945-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_65> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_65> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_65> <http://example.org/ontology/name> "Person 65"@en .
+<http://example.org/resource/Person_65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_66> <http://example.org/ontology/birthDate> "1944-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_66> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_66> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_66> <http://example.org/ontology/name> "Person 66"@en .
+<http://example.org/resource/Person_66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_67> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_67> <http://example.org/ontology/birthDate> "1987-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_67> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_67> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_67> <http://example.org/ontology/name> "Person 67"@en .
+<http://example.org/resource/Person_67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_68> <http://example.org/ontology/birthDate> "1980-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_68> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_68> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_68> <http://example.org/ontology/name> "Person 68"@en .
+<http://example.org/resource/Person_68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_69> <http://example.org/ontology/birthDate> "1915-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_69> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_69> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_69> <http://example.org/ontology/name> "Person 69"@en .
+<http://example.org/resource/Person_69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_6> <http://example.org/ontology/birthDate> "1968-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_6> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_6> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_6> <http://example.org/ontology/name> "Person 6"@en .
+<http://example.org/resource/Person_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_70> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_70> <http://example.org/ontology/birthDate> "1916-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_70> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_70> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_70> <http://example.org/ontology/name> "Person 70"@en .
+<http://example.org/resource/Person_70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_71> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_71> <http://example.org/ontology/birthDate> "1936-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_71> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_0> .
+<http://example.org/resource/Person_71> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_71> <http://example.org/ontology/name> "Person 71"@en .
+<http://example.org/resource/Person_71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_72> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_72> <http://example.org/ontology/birthDate> "1942-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_72> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_72> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_72> <http://example.org/ontology/name> "Person 72"@en .
+<http://example.org/resource/Person_72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_73> <http://example.org/ontology/birthDate> "1967-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_73> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_73> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_73> <http://example.org/ontology/name> "Person 73"@en .
+<http://example.org/resource/Person_73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_74> <http://example.org/ontology/birthDate> "1973-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_74> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_74> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_74> <http://example.org/ontology/name> "Person 74"@en .
+<http://example.org/resource/Person_74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_75> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_75> <http://example.org/ontology/birthDate> "1939-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_75> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_75> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_75> <http://example.org/ontology/name> "Person 75"@en .
+<http://example.org/resource/Person_75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_76> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_76> <http://example.org/ontology/birthDate> "1916-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_76> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_76> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_76> <http://example.org/ontology/name> "Person 76"@en .
+<http://example.org/resource/Person_76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_77> <http://example.org/ontology/birthDate> "1920-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_77> <http://example.org/ontology/birthPlace> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/Person_77> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_77> <http://example.org/ontology/name> "Person 77"@en .
+<http://example.org/resource/Person_77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_78> <http://example.org/ontology/birthDate> "1986-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_78> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_78> <http://example.org/ontology/employer> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_78> <http://example.org/ontology/name> "Person 78"@en .
+<http://example.org/resource/Person_78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_79> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_79> <http://example.org/ontology/birthDate> "1930-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_79> <http://example.org/ontology/birthPlace> <http://example.org/resource/Athens> .
+<http://example.org/resource/Person_79> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_79> <http://example.org/ontology/name> "Person 79"@en .
+<http://example.org/resource/Person_79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Scientist> .
+<http://example.org/resource/Person_7> <http://example.org/ontology/almaMater> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_7> <http://example.org/ontology/birthDate> "1999-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_7> <http://example.org/ontology/birthPlace> <http://example.org/resource/London> .
+<http://example.org/resource/Person_7> <http://example.org/ontology/employer> <http://example.org/resource/FORTH> .
+<http://example.org/resource/Person_7> <http://example.org/ontology/name> "Person 7"@en .
+<http://example.org/resource/Person_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_8> <http://example.org/ontology/birthDate> "1967-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_8> <http://example.org/ontology/birthPlace> <http://example.org/resource/City_1> .
+<http://example.org/resource/Person_8> <http://example.org/ontology/employer> <http://example.org/resource/Org_A> .
+<http://example.org/resource/Person_8> <http://example.org/ontology/name> "Person 8"@en .
+<http://example.org/resource/Person_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/Person_9> <http://example.org/ontology/almaMater> <http://example.org/resource/University_of_Crete> .
+<http://example.org/resource/Person_9> <http://example.org/ontology/birthDate> "1912-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/resource/Person_9> <http://example.org/ontology/birthPlace> <http://example.org/resource/Lyon> .
+<http://example.org/resource/Person_9> <http://example.org/ontology/employer> <http://example.org/resource/Org_B> .
+<http://example.org/resource/Person_9> <http://example.org/ontology/name> "Person 9"@en .
+<http://example.org/resource/Person_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Person> .
+<http://example.org/resource/The_Long_Night> <http://example.org/ontology/director> <http://example.org/resource/Person_43> .
+<http://example.org/resource/The_Long_Night> <http://example.org/ontology/runtime> "111.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/resource/The_Long_Night> <http://example.org/ontology/starring> <http://example.org/resource/Person_38> .
+<http://example.org/resource/The_Long_Night> <http://example.org/ontology/starring> <http://example.org/resource/Person_67> .
+<http://example.org/resource/The_Long_Night> <http://example.org/ontology/title> "The Long Night"@en .
+<http://example.org/resource/The_Long_Night> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Film> .
+<http://example.org/resource/United_Kingdom> <http://example.org/ontology/name> "United Kingdom" .
+<http://example.org/resource/United_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Country> .
+<http://example.org/resource/University_of_Crete> <http://example.org/ontology/location> <http://example.org/resource/Heraklion> .
+<http://example.org/resource/University_of_Crete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/University> .

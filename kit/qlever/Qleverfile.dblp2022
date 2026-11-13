@@ -1,0 +1,30 @@
+# QLever configuration for the dblp RDF dump of 1 Aug 2022 (the KG of DBLP-QuAD), Project B.
+#   mkdir dblp2022 && cd dblp2022 && cp ../Qleverfile.dblp2022 Qleverfile
+#   qlever get-data && qlever index && qlever start
+# The keys follow the presets of qlever-control 0.6; compare with `qlever setup-config dblp` if needed.
+# The 2022 dump is smaller than today's dblp (1.6 billion triples on qlever.dev); plan for
+# about 16 GB RAM while indexing.
+
+[data]
+NAME              = dblp2022
+GET_DATA_CMD      = curl -fL -o dblp.nt.gz "https://zenodo.org/records/7638511/files/dblp.nt.gz?download=1"
+DESCRIPTION       = dblp RDF dump 2022-08-01 (Zenodo 10.5281/zenodo.7638511), HY562 Project B
+
+[index]
+INPUT_FILES       = dblp.nt.gz
+CAT_INPUT_FILES   = zcat ${INPUT_FILES}
+SETTINGS_JSON     = { "ascii-prefixes-only": false, "num-triples-per-batch": 5000000 }
+
+[server]
+PORT               = 7017
+ACCESS_TOKEN       = ${data:NAME}_hy562
+MEMORY_FOR_QUERIES = 8G
+CACHE_MAX_SIZE     = 2G
+TIMEOUT            = 60s
+
+[runtime]
+SYSTEM = docker
+IMAGE  = docker.io/adfreiburg/qlever:latest
+
+[ui]
+UI_CONFIG = default

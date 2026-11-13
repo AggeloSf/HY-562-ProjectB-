@@ -1,0 +1,19 @@
+{"iri": "http://example.org/ontology/name", "kind": "property", "text": "property ex:name \"name\" range xsd:string", "count": 110}
+{"iri": "http://example.org/ontology/birthPlace", "kind": "property", "text": "property ex:birthPlace \"birth place\" domain ex:Person range ex:Place", "count": 84}
+{"iri": "http://example.org/ontology/employer", "kind": "property", "text": "property ex:employer \"employer\" domain ex:Person range ex:Organisation", "count": 84}
+{"iri": "http://example.org/ontology/birthDate", "kind": "property", "text": "property ex:birthDate \"birth date\" domain ex:Person range xsd:date", "count": 83}
+{"iri": "http://example.org/ontology/starring", "kind": "property", "text": "property ex:starring \"starring\" domain ex:Film range ex:Person", "count": 63}
+{"iri": "http://example.org/ontology/Person", "kind": "class", "text": "class ex:Person \"person\" subClassOf ex:Agent", "count": 53}
+{"iri": "http://example.org/ontology/director", "kind": "property", "text": "property ex:director \"director\" domain ex:Film range ex:Person", "count": 32}
+{"iri": "http://example.org/ontology/Scientist", "kind": "class", "text": "class ex:Scientist \"scientist\" subClassOf ex:Person", "count": 31}
+{"iri": "http://example.org/ontology/Film", "kind": "class", "text": "class ex:Film \"film\" subClassOf ex:Work", "count": 31}
+{"iri": "http://example.org/ontology/title", "kind": "property", "text": "property ex:title \"title\" domain ex:Work range xsd:string", "count": 31}
+{"iri": "http://example.org/ontology/runtime", "kind": "property", "text": "property ex:runtime \"runtime\" domain ex:Film range xsd:double", "count": 31}
+{"iri": "http://example.org/ontology/almaMater", "kind": "property", "text": "property ex:almaMater \"alma mater\" domain ex:Person range ex:University", "count": 30}
+{"iri": "http://example.org/ontology/City", "kind": "class", "text": "class ex:City \"city\" subClassOf ex:Place", "count": 24}
+{"iri": "http://example.org/ontology/population", "kind": "property", "text": "property ex:population \"population\" domain ex:Place range xsd:integer", "count": 24}
+{"iri": "http://example.org/ontology/country", "kind": "property", "text": "property ex:country \"country\" domain ex:Place range ex:Country", "count": 24}
+{"iri": "http://example.org/ontology/location", "kind": "property", "text": "property ex:location \"location\" domain ex:Organisation range ex:City", "count": 4}
+{"iri": "http://example.org/ontology/Country", "kind": "class", "text": "class ex:Country \"country\" subClassOf ex:Place", "count": 3}
+{"iri": "http://example.org/ontology/Company", "kind": "class", "text": "class ex:Company \"company\" subClassOf ex:Organisation", "count": 2}
+{"iri": "http://example.org/ontology/University", "kind": "class", "text": "class ex:University \"university\" subClassOf ex:Organisation", "count": 2}

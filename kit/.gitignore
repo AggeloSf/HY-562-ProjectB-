@@ -1,0 +1,12 @@
+runs/
+cache/
+results/*.csv
+!results/*_template.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/*/raw/*.bz2
+data/*/raw/*.gz
+data/dbpedia*/
+data/kg/
+spark-warehouse/

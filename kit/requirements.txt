@@ -1,0 +1,6 @@
+# Project B kit. The course image (04_Environment) already has pyspark, pandas and requests.
+requests>=2.31
+rdflib>=7.0          # toy endpoint and build_schema
+tiktoken>=0.7        # token budgets (cl100k_base); without it the kit counts characters / 4
+datasets>=2.19       # only for scripts/download_benchmarks.sh (DBLP-QuAD)
+pyoxigraph>=0.4      # local SPARQL store (sumqa.kgstore), no server needed
