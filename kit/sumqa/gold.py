@@ -18,11 +18,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--bench", required=True)
     ap.add_argument("--endpoint", required=True)
+    ap.add_argument("--kg", help="record the graph used for these gold answers")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--timeout", type=float, default=60)
     a = ap.parse_args()
     cli = SparqlClient(a.endpoint, timeout=a.timeout)
     qs = list(read_jsonl(a.bench))
+    if a.kg:
+        qs = [{**q, "kg": a.kg} for q in qs]
     with ThreadPoolExecutor(a.workers) as ex:
         res = list(ex.map(lambda q: cli.query(q["sparql"]), qs))
     keep, drop = [], []

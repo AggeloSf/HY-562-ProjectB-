@@ -1,0 +1,15 @@
+python 3.12.16 on Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[OK ] module rdflib: 7.6.0
+[OK ] module pyoxigraph: 0.5.13
+[OK ] module tiktoken: 0.14.0
+[OK ] module pyspark: 4.2.0
+[OK ] dbpedia2022 endpoint oxigraph:data/kg/dbpedia2022/store: probe answered ['true']
+[OK ] dbpedia2022 schema elements: 1585 elements
+[OK ] dblp2022 endpoint oxigraph:data/kg/dblp2022/store: probe answered ['true']
+[OK ] dblp2022 schema elements: 74 elements
+[OK ] gold answers qald9plus_test: 57 questions kept (93 dropped)
+[OK ] gold answers lcquad1_test: 69 questions kept (231 dropped)
+[OK ] gold answers dblpquad_test: 270 questions kept (30 dropped)
+[OK ] Ollama reachable: http://host.docker.internal:11435
+[OK ] model qwen2.5-coder:7b pulled: qwen2.5-coder:7b
+ALL CHECKS PASSED

@@ -24,6 +24,17 @@ dblp)
   [ -s $D/dblp.nt.gz ] || curl -fL --retry 3 -o $D/dblp.nt.gz "https://zenodo.org/records/7638511/files/dblp.nt.gz?download=1"
   # dblp schema (ontology); check the address on https://dblp.org/rdf/ if this fails
   [ -s $D/schema.ttl ] || curl -fL -H "Accept: text/turtle" -o $D/schema.ttl https://dblp.org/rdf/schema || echo "schema download failed: get it from https://dblp.org/rdf/"
+  # The schema endpoint can return RDF/XML even when Turtle is requested.
+  if [ -s "$D/schema.ttl" ]; then
+    python - "$D/schema.ttl" <<'PY'
+import pathlib, sys
+import rdflib
+p = pathlib.Path(sys.argv[1])
+if p.read_bytes().lstrip().startswith(b"<?xml"):
+    graph = rdflib.Graph().parse(p, format="xml")
+    graph.serialize(destination=str(p), format="turtle")
+PY
+  fi
   echo "next: python -m sumqa.kgstore --store data/kg/dblp2022/store $D/dblp.nt.gz"
   echo "      python -m sumqa.kgstats --out data/kg/dblp2022/counts.json --parquet data/kg/dblp2022/parquet --driver-memory 8g $D/dblp.nt.gz"
   echo "      python -m sumqa.build_schema --ontology $D/schema.ttl --counts data/kg/dblp2022/counts.json --out data/kg/dblp2022/schema_elements.jsonl"

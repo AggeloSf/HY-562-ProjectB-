@@ -2,6 +2,7 @@ runs/
 cache/
 results/*.csv
 !results/*_template.csv
+!results/setup_smoke.csv
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -9,4 +10,7 @@ data/*/raw/*.bz2
 data/*/raw/*.gz
 data/dbpedia*/
 data/kg/
+data/benchmarks/raw/dblp_quad/
+data/toy/*.gold.jsonl
+data/toy/*.dropped.jsonl
 spark-warehouse/

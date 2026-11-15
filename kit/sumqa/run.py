@@ -29,6 +29,9 @@ from .sparql import SparqlClient
 from .tokens import COUNTER, count_tokens
 
 KG_INFO = {
+    "dbpedia2022": {"name": "DBpedia (2022-12 snapshot)", "prefixes": ["dbo", "dbr", "dbp", "rdf", "rdfs", "xsd", "foaf"],
+                    "endpoint_env": "DBPEDIA_ENDPOINT", "schema": "data/kg/dbpedia2022/schema_elements.jsonl",
+                    "shots": "data/benchmarks/qald9plus_train.jsonl"},
     "dbpedia2016": {"name": "DBpedia (2016-10 release)", "prefixes": ["dbo", "dbr", "dbp", "rdf", "rdfs", "xsd", "foaf"],
                     "endpoint_env": "DBPEDIA_ENDPOINT", "schema": "data/kg/dbpedia2016/schema_elements.jsonl",
                     "shots": "data/benchmarks/qald9plus_train.jsonl"},

@@ -1,0 +1,2 @@
+team,variant,context,benchmark,kg,budget,model,shots,token_counter,n,accuracy,macro_precision,macro_recall,macro_f1,mean_context_tokens,mean_prompt_tokens,n_correct,n_partial,n_wrong,n_empty,n_error,n_no_query
+setup,retrieval,retrieval,qald9plus_test,dbpedia2022,1000,ollama:qwen2.5-coder:7b,3,cl100k,10,0.1,0.1029,0.2,0.1057,985.9,1455.6,1,1,1,4,3,0
